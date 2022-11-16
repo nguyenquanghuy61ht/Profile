@@ -1,0 +1,53 @@
+.box-about {
+  padding: 2% 20%;
+  h3{
+     color: rgb(228, 79, 79);
+  }
+  .title {
+    text-align: center;
+    h1 {
+        color: rgb(228, 79, 79);
+      margin-bottom: 6px;
+    }
+    h4 {
+      margin: 0;
+      color: gray;
+    }
+  }
+  .about {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: flex;
+        align-items: center;
+        margin: 7px 0;
+        font-size: 16px;
+        .icon {
+          font-size: 19px;
+          color: rgb(227, 55, 55);
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+  .objective {
+    p {
+      margin: 0;
+      padding: 3px 3px;
+    }
+  }
+  .link_Info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    a {
+        margin:80px 12px 0px 12px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}

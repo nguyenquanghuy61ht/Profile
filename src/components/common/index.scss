@@ -1,0 +1,42 @@
+.box {
+  padding: 5% 20%;
+  box-shadow: 5px 3px 18px #dbdbdb;
+  .title {
+    color: rgb(228, 79, 79);
+  }
+  .box-title {
+    display: flex;
+    align-items: center;
+    img {
+      width: 40px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+    p {
+      color: rgb(228, 79, 79);
+    }
+  }
+  .date {
+    font-size: 12px;
+  }
+  .text-content {
+    padding: 3px 0;
+    font-size: 14px;
+    p {
+      margin: 0;
+      padding: 3px 0;
+    }
+  }
+  .detail {
+    h4 {
+      color: rgb(228, 79, 79);
+      margin: 0;
+      padding: 5px 0;
+    }
+    p {
+      font-size: 14px;
+      margin: 0;
+      padding: 3px 0;
+    }
+  }
+}
